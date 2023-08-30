@@ -72,6 +72,14 @@ async function generateImages(input){
     selectedImageNumber = null; //reseta o numero da imagem selecionada
 }
 
+document.addEventListener('keypress', function(e) {
+    if(e.key == "Enter"){
+        const input = document.getElementById("user-prompt").value;
+        generateImages(input);
+        e.preventDefault();
+    }
+});
+
 document.getElementById("gerar").addEventListener('click', () =>{
     const input = document.getElementById("user-prompt").value;
     generateImages(input);

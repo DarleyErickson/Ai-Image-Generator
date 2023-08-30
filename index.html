@@ -7,24 +7,24 @@
     <title>#01 Ai-image-generator</title>
 </head>
 <body>
-    
-    <div class="container">
-        <h1>Ai Image Generator</h1>
-        <p>Insira aqui o que você deseja criar com o poder a IA. Quanto mais informações você
-           inserir, mais detalhado será o seu resultado, por exemplo: "Melhor qualidade, Bem
-           Detalhado, Alta Resolução, 4K, Ultra HD, Sombras detalhadas, (Garotos andando de skate
-           tirando uma selfie em uma pista de skate), Cores Vivas, Realismo, Diversão".</p>
-           <form class="gen-form">
-                <input type="text" id="user-prompt", placeholder="Insira a sua descrição aqui..." autocomplete="off">
-                <button type="button" id="gerar">Gerar</button>
-           </form>
+    <div class="main">
+        <div class="container">
+            <h1>Ai Image Generator</h1>
+            <p>Insira aqui o que você deseja criar com o poder a IA. Quanto mais informações você
+            inserir, mais detalhado será o seu resultado, por exemplo: "Melhor qualidade, Bem
+            Detalhado, Alta Resolução, 4K, Ultra HD, Sombras detalhadas, (Garotos andando de skate
+            tirando uma selfie em uma pista de skate), Cores Vivas, Realismo, Diversão".</p>
+            <form class="gen-form">
+                    <input type="text" id="user-prompt", placeholder="Insira a sua descrição aqui..." autocomplete="off">
+                    <button type="button" id="gerar">Gerar</button>
+            </form>
 
-           <div class="result">
-            <div id="loading">Gerando...</div>
-            <div id="image-grid"></div>
-           </div>    
+            <div class="result">
+                <div id="loading">Gerando...</div>
+                <div id="image-grid"></div>
+            </div>    
+        </div>
     </div>
-
     <script src="script.js"></script>
 </body>
 </html>

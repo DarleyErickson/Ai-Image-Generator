@@ -8,11 +8,15 @@
 }
 
 body{
-    background:  #100738;
+    background:  #100738;  
+}
+.main{
+    height: 80vh;
     display: flex;
-    align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    align-items: center;
+    margin: 5vw;
+    align-items: center;
 }
 
 .container{
@@ -77,7 +81,6 @@ input{
     width: 80%;
     border-radius: 5px;
     outline: none;
-    border: none;
     padding: 0 15px;
     background-color: transparent;
     color: #fff;
